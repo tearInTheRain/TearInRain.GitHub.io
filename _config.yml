@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: TearInTheRain # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 每周输出、深化思考 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -32,7 +32,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: tearInTheRain
-  email: 2064355949@domain.com # change to your email address
+  email: 2064355949@qq.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/tearInTheRain # change to your GitHub homepage
@@ -41,13 +41,13 @@ social:
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
-webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+#webmaster_verifications:
+ # google: # fill in your Google verification code
+  #bing: # fill in your Bing verification code
+  #alexa: # fill in your Alexa verification code
+  #yandex: # fill in your Yandex verification code
+  #baidu: # fill in your Baidu verification code
+  #facebook: # fill in your Facebook verification code
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
