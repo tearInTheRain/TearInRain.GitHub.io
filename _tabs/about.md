@@ -91,19 +91,19 @@ order: 4
   <h2>本周目标</h2>
   <div class="goal-summary">
     <div class="goal-item {% if a_count >= 2 %}completed{% endif %}">
-      <span>编程：{{ a_count }} / 2</span>
+      <span>编程:{{ a_count }} / 2</span>
       <span class="emoji">{% if a_count >= 2 %}✅{% else %}🔲{% endif %}</span>
     </div>
     <div class="goal-item {% if b_count >= 1 %}completed{% endif %}">
-      <span>独立游戏：{{ b_count }} / 1</span>
+      <span>独立游戏:{{ b_count }} / 1</span>
       <span class="emoji">{% if b_count >= 1 %}✅{% else %}🔲{% endif %}</span>
     </div>
     <div class="goal-item {% if c_count >= 1 %}completed{% endif %}">
-      <span>理财：{{ c_count }} / 1</span>
+      <span>理财:{{ c_count }} / 1</span>
       <span class="emoji">{% if c_count >= 1 %}✅{% else %}🔲{% endif %}</span>
     </div>
     <div class="goal-item {% if d_count >= 1 %}completed{% endif %}">
-      <span>摄影：{{ d_count }} / 1</span>
+      <span>摄影:{{ d_count }} / 1</span>
       <span class="emoji">{% if d_count >= 1 %}✅{% else %}🔲{% endif %}</span>
     </div>
   </div>
@@ -191,19 +191,19 @@ order: 4
     {% endfor %}
     
     <div class="goal-item {% if a_count >= 8 %}completed{% else %}incomplete{% endif %}">
-      <span>编程：{{ a_count }} / 8</span>
+      <span>编程:{{ a_count }} / 8</span>
       <span class="emoji">{% if a_count >= 8 %}✅{% else %}🔲 {% endif %}</span>
     </div>
     <div class="goal-item {% if b_count >= 4 %}completed{% else %}incomplete{% endif %}">
-      <span>独立游戏：{{ b_count }} / 4</span>
+      <span>独立游戏:{{ b_count }} / 4</span>
       <span class="emoji">{% if b_count >= 4 %}✅{% else %}🔲{% endif %}</span>
     </div>
     <div class="goal-item {% if c_count >= 4 %}completed{% else %}incomplete{% endif %}">
-      <span>理财：{{ c_count }} / 4</span>
+      <span>理财:{{ c_count }} / 4</span>
       <span class="emoji">{% if c_count >= 4 %}✅{% else %}🔲{% endif %}</span>
     </div>
     <div class="goal-item {% if d_count >= 4 %}completed{% else %}incomplete{% endif %}">
-      <span>摄影：{{ d_count }} / 4</span>
+      <span>摄影:{{ d_count }} / 4</span>
       <span class="emoji">{% if d_count >= 4 %}✅{% else %}🔲{% endif %}</span>
     </div>
     <div class="tmp">
